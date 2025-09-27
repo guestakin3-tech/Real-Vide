@@ -18,7 +18,7 @@ if "OPENAI_API_KEY" in st.secrets:
     openai.api_key = st.secrets["OPENAI_API_KEY"]
 else:
     # For local testing: set env var or replace with your key temporarily
-    openai.api_key = os.getenv("OPENAI_API_KEY", "YOUR_API_KEY_HERE")
+    openai.api_key = os.getenv("OPENAI_API_KEY", "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")
 
 # ==============================
 # 🧠 AI Chat Function
